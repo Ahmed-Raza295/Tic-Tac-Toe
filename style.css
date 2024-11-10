@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Baloo Bhai 2", serif;
+    background-color: rgb(30, 30, 100);
+}
+.container{
+width: 100%;
+height: 100vh;
+background-color: rgb(30, 30, 100);
+display: flex;
+align-items: center;
+
+flex-direction: column;
+}
+.center{
+width: 500px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 0.5rem;
+margin-top: 1rem;
+}
+.btn{
+   width: 130px;
+   height: 130px;
+  border-radius: 8px;
+  border: none;
+  font-size: 3rem;
+  background-color: black;
+   color:rgb(255, 0, 255);
+}
+
+.row{
+margin-top: 2rem;
+}
+.row h1{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.new-game{
+padding: 15px 25px ;
+font-size: 1.1rem;
+border: none;
+border-radius: 8px;
+margin-top: 1rem;
+background-color: rgb(12, 10, 10);
+color: white;
+display: none;
+}
+.hide{
+    display: none;
+}
+.winner{
+
+color: white;
+text-shadow: 10px 10px 10px black;
+}
+.winner span{
+    font-size: 2.7rem;
+}
